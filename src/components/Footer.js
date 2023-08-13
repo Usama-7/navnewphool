@@ -104,7 +104,7 @@ const Footer = () => {
           <div className="col-md-12">
             <p>
               {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
-              Copyright © All rights reserved | Created <i className="icon-heart" aria-hidden="true" /> by M Usama Razzaq
+              Copyright © All rights reserved | Created <i className="icon-heart" aria-hidden="true" /> by M Usama Razzaq - DreamX Solutions
               {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
             </p>
           </div>
