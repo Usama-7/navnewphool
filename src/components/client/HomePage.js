@@ -140,7 +140,7 @@ const HomePage = () => {
         <div className="site-section site-blocks-2">
           <div className="container-fluid">
             <div className="row">
-              <div className="col-sm-4 col-6 col-md-4 col-lg-4 mb-4 mb-lg-0" data-aos="fade" data-aos-delay>
+              <div className="col-sm-4 col-6 col-md-4 col-lg-4 mb-4 mb-lg-0"style={{padding:"0px"}} data-aos="fade" data-aos-delay>
                 <Link className="block-2-item" to="womancatagory">
                   <figure className="image">
                     <img src="images/women.jpg" alt className="img-fluid" />
@@ -151,7 +151,7 @@ const HomePage = () => {
                   </div>
                 </Link>
               </div>
-              <div className="col-sm-4 col-6 col-md-4 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay={100}>
+              <div className="col-sm-4 col-6 col-md-4 col-lg-4 mb-5 mb-lg-0"style={{padding:"0px"}} data-aos="fade" data-aos-delay={100}>
                 <Link className="block-2-item" to="kidscatagory">
                   <figure className="image">
                     <img src="images/children.jpg" alt className="img-fluid" />
@@ -162,9 +162,9 @@ const HomePage = () => {
                   </div>
                 </Link>
               </div>
-              <div className="col-sm-4 col-md-4 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay={200}>
+              <div className="col-sm-4 col-md-4 col-lg-4 mb-5 mb-lg-0"style={{padding:"0px"}} data-aos="fade" data-aos-delay={200}>
                 <Link className="block-2-item" to="mancatagory">
-                  <figure className="image">
+                  <figure className="image figheight" >
                     <img src="images/men.jpg" alt className="img-fluid" />
                   </figure>
                   <div className="text">
