@@ -69,7 +69,7 @@ const HomePage = () => {
               </div>
             </div>
             <div className="row">
-              <div className="col-sm-6 col-12 col-md-6 col-lg-6 mb-4 mb-lg-0" data-aos="fade" data-aos-delay>
+              <div className="col-sm-6 col-6 col-md-6 col-lg-6 mb-4 mb-lg-0" style={{padding:"0px"}} data-aos="fade" data-aos-delay>
                 <Link className="block-2-item" to="womancatagory">
                   <figure className="image" >
                     <img src="images/stiched.jpg" alt className="img-fluid"  />
@@ -80,7 +80,7 @@ const HomePage = () => {
                   </div>
                 </Link>
               </div>
-              <div className="col-sm-6 col-12 col-md-6 col-lg-6 mb-5 mb-lg-0" data-aos="fade" data-aos-delay={100}>
+              <div className="col-sm-6 col-6 col-md-6 col-lg-6 mb-5 mb-lg-0" style={{padding:"0px"}} data-aos="fade" data-aos-delay={100}>
                 <Link className="block-2-item" to="kidscatagory">
                   <figure className="image" >
                     <img src="images/unstiched.jpg" alt className="img-fluid"  />
@@ -91,6 +91,19 @@ const HomePage = () => {
                   </div>
                 </Link>
               </div>
+
+              <div className="col-sm-12 col-md-12 col-lg-12 mb-12 mb-lg-0" style={{padding:"0px"}} data-aos="fade" data-aos-delay>
+                <Link className="block-2-item" to="womancatagory">
+                  <figure className="image figheight" id="" >
+                    <img src="images/phulkarian_pic.jpg" alt className="img-fluid" />
+                  </figure>
+                  <div className="text">
+                    <span className="text-uppercase">Collections</span>
+                    <h3 className='collectiontype'>Phulkarian</h3>
+                  </div>
+                </Link>
+              </div>
+              
               
             </div>
           </div>
@@ -100,7 +113,7 @@ const HomePage = () => {
 
 
 
-        <div className="site-section site-blocks-2">
+        {/* <div className="site-section site-blocks-2">
           <div className="container-fluid">
             
             <div className="row">
@@ -119,7 +132,7 @@ const HomePage = () => {
               
             </div>
           </div>
-        </div>
+        </div> */}
 
 
 
