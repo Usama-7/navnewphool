@@ -88,7 +88,7 @@ a {
   padding: 2.5em 0; }
   @media (min-width: 768px) {
     .site-section {
-      padding: 5em 0; } }
+      padding: 2em 0; } }
   .site-section.site-section-sm {
     padding: 4em 0; }
 
@@ -450,8 +450,8 @@ a {
   background-repeat: no-repeat;
   background-position: center center; }
   .site-blocks-cover, .site-blocks-cover .row {
-    min-height: 600px;
-    height: calc(100vh - 174px); }
+    min-height: 100px;
+    height: calc(90vh - 174px); }
   .site-blocks-cover h1 {
     font-size: 30px;
     font-weight: 900;
@@ -511,6 +511,7 @@ a {
     background: linear-gradient(to bottom, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000',GradientType=0 ); }
   .site-blocks-2 .block-2-item .image {
+    
     position: relative;
     margin-bottom: 0;
     overflow: hidden; }
@@ -526,13 +527,16 @@ a {
     position: absolute;
     width: 100%; }
     .site-blocks-2 .block-2-item .text > span, .site-blocks-2 .block-2-item .text h3 {
+      
       color: #fff; }
+
+      
+
     .site-blocks-2 .block-2-item .text > span {
       font-size: 12px;
       letter-spacing: .1em;
       font-weight: 900; }
-    .site-blocks-2 .block-2-item .text h3 {
-      font-size: 40px; }
+   
   .site-blocks-2 .block-2-item:hover .image img {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);

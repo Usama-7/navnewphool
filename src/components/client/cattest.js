@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
-import Cattest from "./cattest";
 
-const WomanCatagory = () => {
+const Cattest = () => {
 
   const [images, setImages] = useState([]);
 
@@ -30,42 +29,6 @@ const WomanCatagory = () => {
   return (
     <>
 
-
-      <div className="site-wrap">
-
-        <div className="bg-light py-3">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-12 mb-0"><Link to="/">Home</Link> <span className="mx-2 mb-0">/</span> <strong className="text-black">Products</strong></div>
-            </div>
-          </div>
-        </div>
-
-        <ul className="nav justify-content-center mt-4">
-                <li className="nav-item">
-                  <Link className="btn nav-link" aria-current="page" to="/products">All</Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="btn nav-link" aria-current="page" to="/mancatagory">Man</Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="btn nav-link" to="/womancatagory">Woman</Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="btn nav-link" to="/kidscatagory">Kids</Link>
-                </li>
-               
-              </ul>
-
-        <div className="site-section">
-          <div className="container">
-            <div className="row mb-5">
-              <div className="col-md-12 order-2">
-                <div className="row">
-                  
-                </div>
-                <div className="row mb-5">
-
                   {images.length > 0 &&
                     images.filter(man => man.catagory == "woman").map((x) => (
 
@@ -88,26 +51,9 @@ const WomanCatagory = () => {
 
                       </>
                     ))}
+</>
 
 
+  )}
 
-...
-
-<Cattest/>
-                </div>
-
-              </div>
-              
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-
-
-    </>
-  );
-}
-
-export default WomanCatagory;
+export default Cattest;

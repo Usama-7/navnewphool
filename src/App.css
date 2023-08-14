@@ -45,3 +45,21 @@
   padding: 0.25rem 0.5rem;
   color: azure;
 }
+
+
+
+@media (max-width: 544px) {  
+  .collectiontype {font-size:1.5rem;} /*1rem = 16px*/
+}
+
+@media (min-width: 544px) {  
+  .collectiontype {font-size:2.5rem;} /*1rem = 16px*/
+}
+
+@media (max-width: 544px) {  
+  .figheight {height: 200px;} /*1rem = 16px*/
+}
+
+@media (min-width: 544px) {  
+  .figheight {height: 400px;} /*1rem = 16px*/
+}

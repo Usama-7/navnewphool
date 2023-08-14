@@ -8,6 +8,23 @@ const HomePage = () => {
 
       <div>
 
+
+      <ul className="nav justify-content-center mt-4 py-2 mb-3" style={{ backgroundColor: "#f8f8f6", textDecoration: "none" }}>
+          <li className="nav-item">
+            <Link className="btn nav-link" aria-current="page" to="/products">All Products</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="btn nav-link" aria-current="page" to="/mancatagory">Man</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="btn nav-link" to="/womancatagory">Woman</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="btn nav-link" to="/kidscatagory">Kids</Link>
+          </li>
+
+        </ul>
+
         <div className="site-blocks-cover" style={{ backgroundImage: 'url(images/hero_1.jpg)' }} data-aos="fade">
           <div className="container">
             <div className="row align-items-start align-items-md-center justify-content-end">
@@ -23,6 +40,115 @@ const HomePage = () => {
             </div>
           </div>
         </div>
+
+
+
+        <div className="site-section site-blocks-2">
+          <div className="container-fluid">
+            <div className="row justify-content-center  mb-5">
+              <div className="col-md-7 site-section-heading text-center pt-5">
+                <h2>Collections</h2>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-sm-6 col-6 col-md-6 col-lg-6 mb-4 mb-lg-0" data-aos="fade" data-aos-delay>
+                <Link className="block-2-item" to="womancatagory">
+                  <figure className="image" >
+                    <img src="images/women.jpg" alt className="img-fluid" />
+                  </figure>
+                  <div className="text">
+                    <span className="text-uppercase">Collections</span>
+                    <h3 className="collectiontype">Stiched</h3>
+                  </div>
+                </Link>
+              </div>
+              <div className="col-sm-6 col-6 col-md-6 col-lg-6 mb-5 mb-lg-0" data-aos="fade" data-aos-delay={100}>
+                <Link className="block-2-item" to="kidscatagory">
+                  <figure className="image" >
+                    <img src="images/children.jpg" alt className="img-fluid" />
+                  </figure>
+                  <div className="text">
+                    <span className="text-uppercase">Collections</span>
+                    <h3 className='collectiontype'>Un-stiched</h3>
+                  </div>
+                </Link>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+        <div className="site-section site-blocks-2">
+          <div className="container-fluid">
+            
+            <div className="row">
+              <div className="col-sm-12 col-md-12 col-lg-12 mb-12 mb-lg-0"  data-aos="fade" data-aos-delay>
+                <Link className="block-2-item" to="womancatagory">
+                  <figure className="image figheight" id="" >
+                    <img src="images/women.jpg" alt className="img-fluid" />
+                  </figure>
+                  <div className="text">
+                    <span className="text-uppercase">Collections</span>
+                    <h3 className='collectiontype'>Phulkarian</h3>
+                  </div>
+                </Link>
+              </div>
+              
+              
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div className="site-section site-blocks-2">
+          <div className="container-fluid">
+            <div className="row">
+              <div className="col-sm-4 col-6 col-md-4 col-lg-4 mb-4 mb-lg-0" data-aos="fade" data-aos-delay>
+                <Link className="block-2-item" to="womancatagory">
+                  <figure className="image">
+                    <img src="images/women.jpg" alt className="img-fluid" />
+                  </figure>
+                  <div className="text">
+                    <span className="text-uppercase">Collections</span>
+                    <h3 className='collectiontype'>Women</h3>
+                  </div>
+                </Link>
+              </div>
+              <div className="col-sm-4 col-6 col-md-4 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay={100}>
+                <Link className="block-2-item" to="kidscatagory">
+                  <figure className="image">
+                    <img src="images/children.jpg" alt className="img-fluid" />
+                  </figure>
+                  <div className="text">
+                    <span className="text-uppercase">Collections</span>
+                    <h3 className='collectiontype'>Kids</h3>
+                  </div>
+                </Link>
+              </div>
+              <div className="col-sm-4 col-md-4 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay={200}>
+                <Link className="block-2-item" to="mancatagory">
+                  <figure className="image">
+                    <img src="images/men.jpg" alt className="img-fluid" />
+                  </figure>
+                  <div className="text">
+                    <span className="text-uppercase">Collections</span>
+                    <h3 className='collectiontype'>Men</h3>
+                  </div>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
         <div className="site-section site-section-sm site-blocks-1">
           <div className="container">
             <div className="row">
@@ -56,7 +182,9 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-        <Catagory />
+
+
+
 
         <div className="site-section block-8">
           <div className="container">

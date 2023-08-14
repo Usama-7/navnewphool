@@ -7,6 +7,11 @@ const Catagory = () => {
 
       <div className="site-section site-blocks-2">
         <div className="container">
+        <div className="row justify-content-center  mb-5">
+              <div className="col-md-7 site-section-heading text-center pt-4">
+                <h2>Woman</h2>
+              </div>
+            </div>
           <div className="row">
             <div className="col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0" data-aos="fade" data-aos-delay>
               <Link className="block-2-item" to="womancatagory">
