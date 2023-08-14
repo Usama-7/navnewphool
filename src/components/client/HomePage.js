@@ -11,21 +11,22 @@ const HomePage = () => {
 
       <ul className="nav justify-content-center mt-4 py-2 mb-3" style={{ backgroundColor: "#f8f8f6", textDecoration: "none" }}>
           <li className="nav-item">
-            <Link className="btn nav-link" aria-current="page" to="/products">All Products</Link>
+            <Link className="btn nav-link" aria-current="page" to="/products"><span style={{color:"#5690AF"}}>All Products</span></Link>
           </li>
           <li className="nav-item">
-            <Link className="btn nav-link" aria-current="page" to="/mancatagory">Man</Link>
+            <Link className="btn nav-link" aria-current="page" to="/mancatagory"><span style={{color:"#5690AF"}}>Man</span></Link>
           </li>
           <li className="nav-item">
-            <Link className="btn nav-link" to="/womancatagory">Woman</Link>
+            <Link className="btn nav-link" to="/womancatagory"><span style={{color:"#5690AF"}}>Woman</span></Link>
           </li>
           <li className="nav-item">
-            <Link className="btn nav-link" to="/kidscatagory">Kids</Link>
+            <Link className="btn nav-link" to="/kidscatagory"><span style={{color:"#5690AF"}}>Kids</span></Link>
           </li>
 
         </ul>
+        
 
-        <div className="site-blocks-cover" style={{ backgroundImage: 'url(images/hero_1.jpg)' }} data-aos="fade">
+        <div id='hero' className="site-blocks-cover d-none d-lg-block" style={{ backgroundImage: 'url(images/hero4.jpg)'  }} data-aos="fade">
           <div className="container">
             <div className="row align-items-start align-items-md-center justify-content-end">
               <div className="col-md-5 text-center text-md-left pt-5 pt-md-0">
@@ -33,7 +34,24 @@ const HomePage = () => {
                 <div className="intro-text text-center text-md-left">
                   <p className="mb-4">Unparalleled comfort and support, timeless style, durable craftsmanship—a perfect fusion of function and fashion for every occasion. </p>
                   <p>
-                    <Link to="/products" className="btn btn-sm btn-primary">Shop Now</Link>
+                    <Link to="/products" className="btn btn-sm btn-success" style={{backgroundColor:"#5690AF" , border:"1px solid #5690AF"}}>Shop Now</Link>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div id='hero'  className="site-blocks-cover1 d-block d-lg-none" style={{ backgroundImage: 'url(images/hero4mob.jpg)'  }} data-aos="fade">
+          <div className="container">
+            <div className="row align-items-start align-items-md-center justify-content-end">
+              <div className="col-lg-5 text-center text-md-left pt-5 pt-md-0">
+                <h1 className="mb-2">2ndFinding Your Perfect Cloths here</h1>
+                <div className="intro-text text-center text-md-left">
+                  <p className="mb-4">Unparalleled comfort and support, timeless style, durable craftsmanship—a perfect fusion of function and fashion for every occasion. </p>
+                  <p>
+                    <Link to="/products" className="btn btn-sm btn-success" style={{backgroundColor:"#5690AF" , border:"1px solid #5690AF"}}>Shop Now</Link>
                   </p>
                 </div>
               </div>
@@ -54,7 +72,7 @@ const HomePage = () => {
               <div className="col-sm-6 col-6 col-md-6 col-lg-6 mb-4 mb-lg-0" data-aos="fade" data-aos-delay>
                 <Link className="block-2-item" to="womancatagory">
                   <figure className="image" >
-                    <img src="images/women.jpg" alt className="img-fluid" />
+                    <img src="images/stiched.jpg" alt className="img-fluid"  />
                   </figure>
                   <div className="text">
                     <span className="text-uppercase">Collections</span>
@@ -65,7 +83,7 @@ const HomePage = () => {
               <div className="col-sm-6 col-6 col-md-6 col-lg-6 mb-5 mb-lg-0" data-aos="fade" data-aos-delay={100}>
                 <Link className="block-2-item" to="kidscatagory">
                   <figure className="image" >
-                    <img src="images/children.jpg" alt className="img-fluid" />
+                    <img src="images/unstiched.jpg" alt className="img-fluid"  />
                   </figure>
                   <div className="text">
                     <span className="text-uppercase">Collections</span>
@@ -89,7 +107,7 @@ const HomePage = () => {
               <div className="col-sm-12 col-md-12 col-lg-12 mb-12 mb-lg-0"  data-aos="fade" data-aos-delay>
                 <Link className="block-2-item" to="womancatagory">
                   <figure className="image figheight" id="" >
-                    <img src="images/women.jpg" alt className="img-fluid" />
+                    <img src="images/phulkarian_pic.jpg" alt className="img-fluid" />
                   </figure>
                   <div className="text">
                     <span className="text-uppercase">Collections</span>
