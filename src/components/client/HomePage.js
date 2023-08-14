@@ -47,7 +47,7 @@ const HomePage = () => {
           <div className="container">
             <div className="row align-items-start align-items-md-center justify-content-end">
               <div className="col-lg-5 text-center text-md-left pt-5 pt-md-0">
-                <h1 className="mb-2">2ndFinding Your Perfect Cloths here</h1>
+                <h1 className="mb-2">Finding Your Perfect Cloths here.</h1>
                 <div className="intro-text text-center text-md-left">
                   <p className="mb-4">Unparalleled comfort and support, timeless style, durable craftsmanship—a perfect fusion of function and fashion for every occasion. </p>
                   <p>
@@ -69,7 +69,7 @@ const HomePage = () => {
               </div>
             </div>
             <div className="row">
-              <div className="col-sm-6 col-6 col-md-6 col-lg-6 mb-4 mb-lg-0" data-aos="fade" data-aos-delay>
+              <div className="col-sm-6 col-12 col-md-6 col-lg-6 mb-4 mb-lg-0" data-aos="fade" data-aos-delay>
                 <Link className="block-2-item" to="womancatagory">
                   <figure className="image" >
                     <img src="images/stiched.jpg" alt className="img-fluid"  />
@@ -80,7 +80,7 @@ const HomePage = () => {
                   </div>
                 </Link>
               </div>
-              <div className="col-sm-6 col-6 col-md-6 col-lg-6 mb-5 mb-lg-0" data-aos="fade" data-aos-delay={100}>
+              <div className="col-sm-6 col-12 col-md-6 col-lg-6 mb-5 mb-lg-0" data-aos="fade" data-aos-delay={100}>
                 <Link className="block-2-item" to="kidscatagory">
                   <figure className="image" >
                     <img src="images/unstiched.jpg" alt className="img-fluid"  />
