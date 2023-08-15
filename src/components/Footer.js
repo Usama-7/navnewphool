@@ -6,101 +6,77 @@ const Footer = () => {
 
   return (<>
 
-    <footer className="site-footer border-top">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-6 mb-5 mb-lg-0">
-            <div className="row">
-              <div className="col-md-12">
-                <h3 className="footer-heading mb-4 mt-5">Navigations</h3>
-              </div>
-              <div className="col-md-6 col-lg-4">
-                <ul className="list-unstyled">
-                  <li><Link to="/">Home</Link></li>
-
-                </ul>
-              </div>
-              <div className="col-md-6 col-lg-4">
-                <ul className="list-unstyled">
-                  <li><Link to="/products">Products</Link></li>
-
-                </ul>
-              </div>
-              <div className="col-md-6 col-lg-4">
-                <ul className="list-unstyled">
-                  <li><Link to="/contact">Contact</Link></li>
-
-                </ul>
-              </div>
-
-
-              {auth && JSON.parse(auth).role === 1 &&
-                <>
-                  <div className="col-md-6 col-lg-4">
-                    <ul className="list-unstyled">
-                      <li><Link to="/adminAddProducts">AddProduct</Link></li>
-
-                    </ul>
-                  </div>
-                  <div className="col-md-6 col-lg-4">
-                    <ul className="list-unstyled">
-                      <li><Link to="/adminProductsList">Product List</Link></li>
-
-                    </ul>
-                  </div><div className="col-md-6 col-lg-4">
-                    <ul className="list-unstyled">
-                      <li><Link to="/userlist">Users List</Link></li>
-
-                    </ul>
-                  </div><div className="col-md-6 col-lg-4">
-                    <ul className="list-unstyled">
-                      <li><Link to="/messages">Messages</Link></li>
-
-                    </ul>
-                  </div><div className="col-md-6 col-lg-4">
-                    <ul className="list-unstyled">
-                      <li><Link to="/purchaserequest">PurchaseRequest</Link></li>
-
-                    </ul>
-                  </div>
+   
 
 
 
-                </>
-              }
-
-
-            </div>
+   <footer className="footer_area section_padding_130_0">
+  <div className="container">
+    <div className="row">
+      {/* Single Widget*/}
+      <div className="col-12 col-sm-6 col-lg-4">
+        <div className="single-footer-widget section_padding_0_130">
+          {/* Footer Logo*/}
+          <div className="footer-logo mb-3" />
+          <p>Appland is completely creative, lightweight, clean app landing page.</p>
+          {/* Copywrite Text*/}
+          <div className="copywrite-text mb-5">
+            <p className="mb-0">Made with <i className="lni-heart mr-1" />by<a className="ml-1" href="https://wrapbootstrap.com/user/DesigningWorld">Designing World</a></p>
           </div>
-          <div className="col-md-6 col-lg-3 mb-4 mb-lg-0">
-            <h3 className="footer-heading mb-4">Promo</h3>
-            <a href="#" className="block-6">
-              <img src="images/hero_1.jpg" alt="Image placeholder" className="img-fluid rounded mb-4" />
-              <h3 className="font-weight-light  mb-0">Finding Your Perfect Shoes</h3>
-              <p>Add Promos for more discounts</p>
-            </a>
+          {/* Footer Social Area*/}
+          <div className="footer_social_area"><a href="#" data-toggle="tooltip" data-placement="top" title data-original-title="Facebook"><i className="fa fa-facebook" /></a><a href="#" data-toggle="tooltip" data-placement="top" title data-original-title="Pinterest"><i className="fa fa-pinterest" /></a><a href="#" data-toggle="tooltip" data-placement="top" title data-original-title="Skype"><i className="fa fa-skype" /></a><a href="#" data-toggle="tooltip" data-placement="top" title data-original-title="Twitter"><i className="fa fa-twitter" /></a></div>
+        </div>
+      </div>
+      {/* Single Widget*/}
+      <div className="col-12 col-sm-6 col-lg">
+        <div className="single-footer-widget section_padding_0_130">
+          {/* Widget Title*/}
+          <h5 className="widget-title">About</h5>
+          {/* Footer Menu*/}
+          <div className="footer_menu">
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Corporate Sale</a></li>
+              <li><a href="#">Terms &amp; Policy</a></li>
+              <li><a href="#">Community</a></li>
+            </ul>
           </div>
-          <div className="col-md-6 col-lg-3">
-            <div className="block-5 mb-5">
-              <h3 className="footer-heading mb-4">Contact Info</h3>
+        </div>
+      </div>
+      {/* Single Widget*/}
+      <div className="col-12 col-sm-6 col-lg">
+        <div className="single-footer-widget section_padding_0_130">
+          {/* Widget Title*/}
+          <h5 className="widget-title">Support</h5>
+          {/* Footer Menu*/}
+          <div className="footer_menu">
+            <ul>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Term &amp; Conditions</a></li>
+              <li><a href="#">Help &amp; Support</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      {/* Single Widget*/}
+      <div className="col-12 col-sm-6 col-lg">
+        <div className="single-footer-widget section_padding_0_130">
+          {/* Widget Title*/}
+          <h5 className="widget-title">Contact</h5>
+          {/* Footer Menu*/}
+          <div className="block-5 mb-5">
               <ul className="list-unstyled">
                 <li className="address">Gulbarg II , Lahore,Punjab,Pakistan</li>
                 <li className="phone"><a href="tel://23923929210">+92 123456789</a></li>
                 <li className="email">musamarazzaq7@gmail.com</li>
               </ul>
             </div>
-            <div className="block-7">
-              <form action="#" method="post">
-                <label htmlFor="email_subscribe" className="footer-heading">Subscribe</label>
-                <div className="form-group">
-                  <input type="text" className="form-control py-4" id="email_subscribe" placeholder="Email" />
-                  <input type="submit" className="btn btn-sm btn-primary" defaultValue="Send" />
-                </div>
-              </form>
-            </div>
-          </div>
         </div>
-        <div className="row pt-5 mt-5 text-center">
+      </div>
+    </div>
+    <div className="row pt-5  text-center">
           <div className="col-md-12">
             <p>
               {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
@@ -109,8 +85,10 @@ const Footer = () => {
             </p>
           </div>
         </div>
-      </div>
-    </footer>
+  </div>
+</footer>
+
+
 
 
   </>);

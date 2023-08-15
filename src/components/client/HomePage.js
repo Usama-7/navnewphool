@@ -230,7 +230,7 @@ const HomePage = () => {
               </div>
               <div className="col-md-12 col-lg-5 text-center pl-md-5">
                 <h2><a href="#">50% less in all items</a></h2>
-                <p className="post-meta mb-4">By <a href="#">M Usama Razzaq</a> <span className="block-8-sep">•</span> MAy 31, 2023</p>
+                <p className="post-meta mb-4">By <a href="#">M Usama Razzaq</a> <span className="block-8-sep">•</span> May 31, 2023</p>
                 <p>Don't miss out on our incredible big sale with a whopping 50% off, making it the perfect time to snag your dream shoes!</p>
                 <p><Link to="/products" className="btn btn-primary btn-sm">Shop Now</Link></p>
               </div>
