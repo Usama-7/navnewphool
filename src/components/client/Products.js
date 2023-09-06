@@ -20,7 +20,7 @@ const Products = () => {
 
   const fetchImages = async () => {
     try {
-      const response = await fetch('https://newphoolbackend-e5f66bec9c2c.herokuapp.com/api/v1/client/imageshow', {
+      const response = await fetch('https://phoolbackendsep-usama-7.vercel.app/api/v1/client/imageshow', {
 
         headers: {
           authorization: JSON.parse(localStorage.getItem("token"))
@@ -116,7 +116,7 @@ const Products = () => {
                                 <div className="col-sm-6 col-lg-4 mb-4" data-aos="fade-up">
                                   <div className="block-4 text-center border">
                                     <figure className="block-4-image">
-                                      <Link to={`/products/${x._id}`}><img src={`https://newphoolbackend-e5f66bec9c2c.herokuapp.com/uploads/${x.filename}`} alt="Image placeholder" className="img-fluid" /></Link>
+                                      <Link to={`/products/${x._id}`}><img src={`https://phoolbackendsep-usama-7.vercel.app/uploads/${x.filename}`} alt="Image placeholder" className="img-fluid" /></Link>
                                     </figure>
                                     <div className="block-4-text p-4">
                                       <p className="mb-0"> <Link to={`/products/${x._id}`}>{x.title}</Link></p>
@@ -137,7 +137,7 @@ const Products = () => {
                                 <div className="col-sm-6 col-lg-4 mb-4" data-aos="fade-up">
                                   <div className="block-4 text-center border">
                                     <figure className="block-4-image">
-                                      <Link to={`/products/${x._id}`}><img src={`https://newphoolbackend-e5f66bec9c2c.herokuapp.com/uploads/${x.filename}`} alt="Image placeholder" className="img-fluid" /></Link>
+                                      <Link to={`/products/${x._id}`}><img src={`https://phoolbackendsep-usama-7.vercel.app//uploads/${x.filename}`} alt="Image placeholder" className="img-fluid" /></Link>
                                     </figure>
                                     <div className="block-4-text p-4">
 

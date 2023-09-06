@@ -89,3 +89,33 @@
   .site-blocks-cover1 .intro-text {
     font-size: 16px;
     line-height: 1.5; }
+
+
+
+
+
+    /* home */
+
+
+    .carousel-indicators li {
+
+      background-color: rgb(0 0 0 / 50%);
+    }
+
+    .carousel-indicators .active {
+
+      background-color: #000000;
+
+    }
+
+
+    .logobgcolor {
+      background-color: rgb(231, 203, 222) ;
+      background-image: linear-gradient(to right, rgb(248, 228, 237), rgb(255, 230, 230));
+    }
+
+
+    .navbgcolor {
+      background-color: rgb(175 86 148) ;
+      background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    }

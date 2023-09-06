@@ -7,9 +7,32 @@ const HomePage = () => {
     <>
 
       <div>
+        
 
 
-      <ul className="nav justify-content-center mt-4 py-2 mb-3" style={{ backgroundColor: "#f8f8f6", textDecoration: "none" }}>
+
+<div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+  <ol className="carousel-indicators" >
+    <li  data-target="#carouselExampleIndicators" data-slide-to={0} className="active" />
+    <li  data-target="#carouselExampleIndicators" data-slide-to={1} />
+    <li  data-target="#carouselExampleIndicators" data-slide-to={2} />
+  </ol>
+  <div className="carousel-inner">
+    <div className="carousel-item active">
+      <img style={{height:"460px"}} src="images/hero_1.jpg" className="d-block w-100" alt="..." />
+    </div>
+    <div className="carousel-item">
+      <img style={{height:"460px"}} src="images/hero_2.jpg" className="d-block w-100" alt="..." />
+    </div>
+    <div className="carousel-item">
+      <img style={{height:"460px"}} src="images/hero3.jpg" className="d-block w-100" alt="..." />
+    </div>
+  </div>
+  
+</div>
+
+
+<ul className="nav justify-content-center mt-4 py-2 mb-3" style={{ backgroundColor: "#f8f8f6", textDecoration: "none" }}>
           <li className="nav-item">
             <Link className="btn nav-link" aria-current="page" to="/products"><span style={{color:"#5690AF"}}>All Products</span></Link>
           </li>
@@ -24,7 +47,9 @@ const HomePage = () => {
           </li>
 
         </ul>
-        
+
+
+
 
         <div id='hero' className="site-blocks-cover d-none d-lg-block" style={{ backgroundImage: 'url(images/hero4.jpg)'  }} data-aos="fade">
           <div className="container">
@@ -237,7 +262,6 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-
       </div>
 
     </>
